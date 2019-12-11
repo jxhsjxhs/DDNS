@@ -1,9 +1,9 @@
 # DDNS
 
-[中文](https://github.com/mgsky1/DDNS/blob/master/README_ZH_CN.md)|[English](https://github.com/mgsky1/DDNS/blob/master/README.md)
+[中文](https://github.com/jxhsjxhs/DDNS/master/README_ZH_CN.md)|[English](https://github.com/jxhsjxhs/DDNS/master/README.md)
 
 ## Summary
-
+> fork自https://github.com/mgsky1/DDNS,稍微修改了点儿。
 > 利用Python和阿里云云解析API实现。可利用于家庭环境，向公网映射NAS，DB，Web等应用
 
 ## Install
