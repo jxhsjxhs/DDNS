@@ -1,7 +1,9 @@
 ## Summary
-> fork自https://github.com/mgsky1/DDNS 
-> 稍微修改了点儿 
-> 利用Python和阿里云云解析API实现。可利用于家庭环境，向公网映射NAS，DB，Web等应用
+```
+fork自https://github.com/mgsky1/DDNS 
+稍微修改了点儿 
+利用Python和阿里云云解析API实现。可利用于家庭环境，向公网映射NAS，DB，Web等应用
+```
 
 ## Install
 
