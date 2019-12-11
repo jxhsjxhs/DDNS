@@ -45,13 +45,18 @@ python3 src/DDNS.py -6   # 改用ipv6
 > * Step 4：最后利用前面查到的公网IP+端口号访问一下，看看能不能显示内网上的页面，如果可以，恭喜你！
 ## ScreenShots
 
-
+`执行脚本回执`
 ![执行脚本回执](https://tva1.sinaimg.cn/large/006tNbRwgy1g9t4cvp3hpj30ja04kt9j.jpg)
 
+`本地web服务`
 ![本地web服务](https://tva1.sinaimg.cn/large/006tNbRwgy1g9t49q2g7uj31ux0u0gs5.jpg)
 
+
+`路由器端口映射`
 ![路由器端口映射](https://tva1.sinaimg.cn/large/006tNbRwgy1g9t4aqvzpmj31g60b6dgt.jpg)
 
+
+`外部域名访问`
 ![外部域名访问](https://tva1.sinaimg.cn/large/006tNbRwgy1g9t4b6i337j31z20r2agf.jpg)
 
 
