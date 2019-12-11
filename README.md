@@ -1,9 +1,6 @@
-# DDNS
-
-[中文](https://github.com/jxhsjxhs/DDNS/master/README_ZH_CN.md)|[English](https://github.com/jxhsjxhs/DDNS/master/README.md)
-
 ## Summary
-> fork自https://github.com/mgsky1/DDNS,稍微修改了点儿。
+> fork自https://github.com/mgsky1/DDNS 
+> 稍微修改了点儿 
 > 利用Python和阿里云云解析API实现。可利用于家庭环境，向公网映射NAS，DB，Web等应用
 
 ## Install
@@ -22,7 +19,7 @@ python3 src/DDNS.py -6   # 改用ipv6
 ## Note
 > * 基于：Python 3 、阿里云Python SDK、阿里云云解析API
 > * 直接运行DDNS.py文件的main函数即可，其他的py文件的main函数都为测试
-> * 可将此脚本设置为系统定时任务，例如每天凌晨4:30执行一次或者每次联网时自动执行一次
+> * 可将此脚本设置为系统定时任务，例如每天凌晨4:30执行一次或者每次联网时自动执行一次,已经写成ddns.sh 修改脚本路径即可
 > * *在最新的[dev](https://github.com/mgsky1/DDNS/tree/dev)分支中增加了同一IP同时绑定多个域名的功能，欢迎体验*
 > * 此脚本为DDNS实现的个人想法
 
@@ -47,18 +44,14 @@ python3 src/DDNS.py -6   # 改用ipv6
 ## ScreenShots
 
 注：因为我已经更新过了，所以它提示IP地址已存在，阿里云是不允许同一个IP重复更新的。第二张图为本地，第三张图为外网<br/>
-![](http://xxx.fishc.org/forum/201805/26/181341tp2frcnnnvnvc5iz.png)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9t4cvp3hpj30ja04kt9j.jpg)
 
-![](http://xxx.fishc.org/forum/201805/26/200124rsubrwwdblr8ffwz.png)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9t49q2g7uj31ux0u0gs5.jpg)
 
-![](http://xxx.fishc.org/forum/201805/26/200228kb1u63hargn0pc1n.png)
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9t4aqvzpmj31g60b6dgt.jpg)
 
-## Change Log
-> * 2018/5/29 网络连通性检测，只有在有网时才进行操作，否则等待网络连接
-> * 2018/6/10 启用配置文件存储用户数据
-> * 2018/9/24 修改失败提示输出，添加阿里帮助网址，让用户可查询错误对应信息
-> * 2018/12/24 改进ip获取方式，删除BS4依赖，感谢@Nielamu
-> * 2018/12/27 增加ipv6支持，感谢@chnlkw
+![](https://tva1.sinaimg.cn/large/006tNbRwgy1g9t4b6i337j31z20r2agf.jpg)
+
 
 ## Contribution
 如果感兴趣欢迎fork项目，如果有任何问题欢迎在issue区提问~
