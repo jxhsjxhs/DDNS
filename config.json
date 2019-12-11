@@ -1,0 +1,6 @@
+{
+    "AccessKeyId": "云厂商提供的",
+    "AccessKeySecret": "云厂商提供的",
+    "First-level-domain": "一级域名 比如 jxhs.me",
+    "Second-level-domain": "二级域名的头部 比如 你想指到 home.jxhs.me 就只用写  home 就行"
+}
