@@ -46,6 +46,7 @@ python3 src/DDNS.py -6   # 改用ipv6
 ## ScreenShots
 
 `执行脚本回执`
+<br>
 ![执行脚本回执](https://tva1.sinaimg.cn/large/006tNbRwgy1g9t4cvp3hpj30ja04kt9j.jpg)
 
 `本地web服务`
